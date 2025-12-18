@@ -18,6 +18,7 @@ Music platforms like **Shazam** and **Spotify** analyze audio signals to recogni
 
 ## 🤝 Contributers
 - [Ruvaifa](https://github.com/Ruvaifa)
+- [Sourish](https://github.com/sourishbhat)
 
 ## 🧠 System Workflow
 
