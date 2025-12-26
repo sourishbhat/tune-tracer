@@ -1,3 +1,5 @@
+# can try frontend to upload audio.
+
 import uuid
 from fastapi import UploadFile
 from pathlib import Path
@@ -14,3 +16,4 @@ async def save_audio(file: UploadFile) -> str:
         f.write(await file.read())
     
     return str(file_path)
+
