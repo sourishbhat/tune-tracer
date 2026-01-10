@@ -8,7 +8,7 @@ app = FastAPI()
 model = joblib.load("mood_model.pkl")
 encoder = joblib.load("label_encoder.pkl")
 
-FEATURE_COUNT = 13
+FEATURE_COUNT = 8
 
 
 class PredictionRequest(BaseModel):
